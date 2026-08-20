@@ -1,0 +1,414 @@
+<!doctype html>
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#171310" name="theme-color"/>
+<meta content="Taquiños · Tacos de espadas al carbón. Sabor, fuego y experiencia familiar en Querétaro." name="description"/>
+<title>Taquiños · Tacos de Espadas al Carbón</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Work+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+
+<link href="css/styles.css" rel="stylesheet"/></head>
+<body>
+<header id="siteHeader">
+<div class="wrap">
+<a class="brand" href="#">
+<img alt="Taquiños · Tacos de espadas al carbón" class="brand-logo" src="images/logo-taquinos-header.png"/>
+</a>
+<nav class="links">
+<a href="#nosotros">Nosotros</a><a href="#menu">Menú</a><a href="#bebidas">Bebidas</a>
+<a href="#familia">Familia</a><a href="#sucursales">Sucursales</a>
+</nav>
+<div class="nav-cta">
+<button class="btn btn-brasa js-call">Llamar</button>
+<button aria-label="Menú" class="burger" id="burger"><span></span><span></span><span></span></button>
+</div>
+</div>
+</header>
+<div id="mobileMenu" style="position:fixed;inset:0;background:rgba(22,18,16,.98);z-index:99;display:none;flex-direction:column;align-items:center;justify-content:center;gap:28px">
+<button aria-label="Cerrar" class="call-close" id="mobileClose">×</button>
+<a href="#nosotros">Nosotros</a><a href="#menu">Menú</a><a href="#bebidas">Bebidas</a><a href="#familia">Familia</a><a href="#sucursales">Sucursales</a>
+<button class="btn btn-brasa js-call">Llamar</button>
+</div>
+<!-- HERO -->
+<section class="hero hero-v2">
+<div class="wrap hero-v2-wrap">
+<div class="hero-copy reveal">
+<div class="hero-kicker">🔥 TACOS DE ESPADAS AL CARBÓN</div>
+<h1>EL MEJOR <em>SABOR</em><br/>SE COMPARTE</h1>
+<p class="lead">Carne al carbón, cortes premium, espadas de taco y una experiencia pensada para venir con la familia, los amigos… y hasta tu mascota.</p>
+<div class="hero-ctas">
+<button class="btn btn-brasa js-call">Llamar</button>
+<a class="btn btn-outline" href="#menu">Ver menú</a>
+</div>
+<div class="hero-pills">
+<span>🔥 Al carbón</span><span>🥩 Cortes premium</span><span>👨‍👩‍👧 Ambiente familiar</span><span>🐾 Pet friendly</span><span>🧒 TaKids</span>
+</div>
+</div>
+<div class="hero-showcase reveal">
+<div class="hero-photo hero-photo-main"><img alt="Alitas BBQ Taquiños" src="images/taquinos-01.jpg"/></div>
+<div class="hero-photo hero-photo-small"><img alt="Parrillada y cortes Taquiños" src="images/taquinos-06.jpg"/></div>
+<div class="hero-badge"><b>TAQUIÑOS</b><span>Fuego · Sabor · Familia</span></div>
+</div>
+</div>
+</section>
+<div class="marquee"><div class="track">
+<span>🔥 Picanha Importada · Encarbonado · Choripicaña · Parrillada 7 pax · Aguachile de Camarón · Taco Hawaiano</span>
+<span>🔥 Picanha Importada · Encarbonado · Choripicaña · Parrillada 7 pax · Aguachile de Camarón · Taco Hawaiano</span>
+</div></div>
+<!-- NOSOTROS -->
+<section class="nosotros" id="nosotros">
+<div class="wrap">
+<div class="nos-grid reveal">
+<img alt="Bebida Taquiños" class="tall" src="images/taquinos-02.jpg"/>
+<img alt="Bebida Taquiños" src="images/taquinos-03.jpg"/>
+<img alt="Coctelería Taquiños" src="images/taquinos-04.jpg"/>
+</div>
+<div class="nos-text reveal">
+<span class="eyebrow">Nuestra historia</span>
+<h2>Tacos de espadas, hechos con fuego real</h2>
+<p>En Taquiños creemos que el sabor no se apura: se asa lento, sobre carbón vivo y con cortes que elegimos por su calidad.</p>
+<p>Somos el lugar de las comidas en familia, las tardes con amigos y el antojo que no espera: mesas grandes, ambiente familiar y ese olor a carbón que se siente desde la entrada.</p>
+<div class="badges">
+<div class="badge">🔥 Cortes premium</div><div class="badge">👨‍👩‍👧 Ambiente familiar</div>
+<div class="badge">🥩 Fuego real</div><div class="badge">🍹 Coctelería</div>
+</div>
+</div>
+</div>
+</section>
+<!-- MENU -->
+<section class="menu" id="menu">
+<div class="wrap">
+<div class="sec-head on-dark reveal">
+<span class="eyebrow">Nuestro menú</span>
+<h2>Elige tu antojo</h2>
+<p>Una selección de tacos, entradas, parrilladas, mariscos, bebidas y especialidades al carbón.</p>
+</div>
+<div class="menu-panels">
+<div class="reveal">
+<div class="menu-tabs">
+<button class="menu-tab active" data-panel="tacos">Tacos</button>
+<button class="menu-tab" data-panel="entradas">Entradas</button>
+<button class="menu-tab" data-panel="parrilla">Parrillada</button>
+<button class="menu-tab" data-panel="mariscos">Mariscos</button>
+<button class="menu-tab" data-panel="postres">Postres</button>
+</div>
+<div class="menu-panel active" id="panel-tacos">
+<div class="menu-item"><div><b>Taquiño</b><small>Arrachera, queso, camarón, tortilla de harina y guacamole</small></div><div class="mi-r">$130</div></div>
+<div class="menu-item"><div><b>Hawaiano</b><small>Sirloin, pimiento, piña, cebolla y queso</small></div><div class="mi-r">$120</div></div>
+<div class="menu-item"><div><b>Ta-con Madre</b><small>Cecina, pastor, chorizo y queso</small></div><div class="mi-r">$100</div></div>
+<p class="menu-note">*Precios de referencia de la carta disponible.</p>
+</div>
+<div class="menu-panel" id="panel-entradas">
+<div class="menu-item"><div><b>Queso fundido</b><small>Para compartir</small></div><div class="mi-r">$130</div></div>
+<div class="menu-item"><div><b>Tuétano</b><small>Especialidad al carbón</small></div><div class="mi-r">$50</div></div>
+<div class="menu-item"><div><b>Alitas</b><small>12 piezas · Red hot, mango habanero o BBQ</small></div><div class="mi-r">$175</div></div>
+</div>
+<div class="menu-panel" id="panel-parrilla">
+<div class="menu-item"><div><b>Parrillada para 7</b><small>Picanha, arrachera, bistec, chorizo argentino, pollo, quesadillas y tuétano + guarniciones · 10 tortillas</small></div><div class="mi-r">$850</div></div>
+<div class="menu-item"><div><b>Molcajete Taquiños</b><small>Arrachera, pechuga de pollo, camarones, nopales, queso y salsas de tomate verde · para 3 personas</small></div><div class="mi-r">$400</div></div>
+</div>
+<div class="menu-panel" id="panel-mariscos">
+<div class="menu-item"><div><b>Aguachile verde</b><small>Preparado con camarón</small></div><div class="mi-r">$270</div></div>
+<div class="menu-item"><div><b>Aguachile negro</b><small>Preparado con camarón</small></div><div class="mi-r">$270</div></div>
+<div class="menu-item"><div><b>Ceviche de pescado</b><small>Fresco y preparado al momento</small></div><div class="mi-r">$170</div></div>
+<div class="menu-item"><div><b>Ceviche de camarón</b><small>Fresco y preparado al momento</small></div><div class="mi-r">$200</div></div>
+<div class="menu-item"><div><b>Ceviche de pulpo</b><small>Fresco y preparado al momento</small></div><div class="mi-r">$200</div></div>
+<div class="menu-item"><div><b>Ceviche mixto</b><small>Combinación de mariscos</small></div><div class="mi-r">$220</div></div>
+<div class="menu-item"><div><b>Cóctel de pulpo</b><small>Preparación fresca</small></div><div class="mi-r">$220</div></div>
+<div class="menu-item"><div><b>Cóctel de camarón</b><small>Preparación fresca</small></div><div class="mi-r">$190</div></div>
+</div>
+<div class="menu-panel" id="panel-postres">
+<div class="menu-item"><div><b>Crepas</b><small>Nutella, frutos rojos o cajeta</small></div><div class="mi-r">$160</div></div>
+<div class="menu-item"><div><b>Helado</b><small>Postre individual</small></div><div class="mi-r">$60</div></div>
+</div>
+</div>
+<div class="menu-visual reveal">
+<img alt="Parrillada Taquiños" src="images/taquinos-06.jpg"/>
+<div class="price-tag"><b>Parrillada Taquiños</b><span>Picanha, arrachera, bistec, chorizo argentino, pollo, quesadillas y tuétano · para 7 personas — $850</span></div>
+</div>
+</div>
+</div>
+</section>
+<!-- BANNER -->
+<div class="banner">
+<div class="wrap">
+<div>
+<span class="eyebrow" style="color:#ffd85c">Para compartir</span>
+<h3>La Parrillada Taquiños: la mesa se sirve completa</h3>
+<p>Picanha, arrachera, bistec, chorizo argentino, pollo, quesadillas y tuétano con guarnición. Para 7 personas, $850.</p>
+</div>
+<button class="btn btn-brasa js-call">Llamar</button>
+</div>
+</div>
+<!-- BEBIDAS -->
+<section class="bebidas" id="bebidas">
+<div class="wrap beb-grid">
+<div class="beb-text reveal">
+<span class="eyebrow">Coctelería</span>
+<h2>Algo frío para acompañar</h2>
+<p>Carajillo, cantarito, martini de horchata, margaritas y más opciones para acompañar la comida.</p>
+<p>También hay opciones sin alcohol, cervezas bien heladas y bebidas para compartir.</p>
+<a class="btn btn-dark" href="#sucursales">Encuentra tu sucursal</a>
+</div>
+<div class="beb-card reveal">
+<h4>Lo más pedido</h4>
+<ul class="beb-list">
+<li>Carajillo</li><li>Cantarito Tequila</li><li>Martini Horchata</li><li>Aperol Spritz</li>
+<li>Piña Colada</li><li>Mojito</li><li>Margarita</li><li>Sangría Preparada</li>
+<li>Caipiriña</li><li>Michelada / Chelada</li><li>Caguamón</li><li>Cerveza nacional e importada</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- FAMILIA -->
+<section class="kids-v2" id="familia">
+<div class="wrap">
+<div class="kids-visuals reveal">
+<div class="kids-main"><img alt="Experiencia Taquiños" src="images/taquinos-07.jpg"/></div>
+<div class="kids-small"><img alt="Platillo Taquiños" src="images/taquinos-08.jpg"/></div>
+<div class="pet-small"><img alt="Platillo Taquiños" src="images/taquinos-09.jpg"/></div>
+</div>
+<div class="kids-copy reveal">
+<span class="eyebrow">TaKids + Pet Friendly</span>
+<h2>Mientras los grandes comen, <em>los pequeños se divierten.</em></h2>
+<p>Convertimos la comida en un plan completo: todas nuestras sucursales cuentan con área para niños y son pet friendly, para que toda la familia pueda disfrutar junta.</p>
+<div class="amenity-big-grid">
+<div class="amenity-big"><strong>TAKIDS</strong><span>Zona de juegos infantiles</span></div>
+<div class="amenity-big"><strong>PET</strong><span>Pet friendly en todas las sucursales</span></div>
+</div>
+<div class="kids-note"><b>En todas las sucursales:</b> área para niños y espacios pet friendly para disfrutar en familia.</div>
+<a class="btn btn-dark" href="#sucursales">Ver sucursales</a>
+</div>
+</div>
+</section>
+<!-- VIDEOS -->
+<section class="videos" id="videos">
+<div class="wrap">
+<div class="sec-head on-dark reveal">
+<span class="eyebrow">VIVE EL SABOR</span>
+<h2>MIRA LO QUE TE ESPERA</h2>
+<p>El carbón, la parrilla y nuestros platillos hablan por sí solos. Dale play y descubre por qué Taquiños se disfruta con todos los sentidos.</p>
+</div>
+<div class="video-grid">
+<article class="video-card reveal">
+<video controls="" playsinline="" poster="images/taquinos-01.jpg" preload="metadata">
+<source src="images/videos/taquinos-video-01.mp4" type="video/mp4"/>
+</video>
+<div class="video-info"><span>TAQUIÑOS</span><h3>Sabor al carbón</h3></div>
+</article>
+<article class="video-card reveal">
+<video controls="" playsinline="" poster="images/taquinos-06.jpg" preload="metadata">
+<source src="images/videos/taquinos-video-02.mp4" type="video/mp4"/>
+</video>
+<div class="video-info"><span>TAQUIÑOS</span><h3>La experiencia Taquiños</h3></div>
+</article>
+</div>
+</div>
+</section>
+<!-- SUCURSALES -->
+<section class="sucursales" id="sucursales">
+<div class="wrap">
+<div class="sec-head on-dark reveal">
+<span class="eyebrow">Encuéntranos</span>
+<h2>Elige tu Taquiños</h2>
+<p>Todas nuestras sucursales son pet friendly y cuentan con área para niños. Elige la sucursal que buscas y llámanos directamente.</p>
+</div>
+<div class="suc-grid suc-grid-v2">
+<article class="suc-card reveal branch-card" data-amenities="both">
+<div class="suc-card-head">
+<div><span class="branch-label">Familia</span><h4>Taquiños Marqués</h4></div>
+<span class="branch-icon">📍</span>
+</div>
+<p class="addr">Paseo Centenario del Ejército Mexicano km 5, El Marqués, Qro.</p>
+<div class="amenity-tags"><span class="tag kids">🧒 Zona TaKids</span><span class="tag pet">🐾 Pet Friendly</span></div>
+<p class="quote">Área para niños y ambiente pet friendly.</p>
+<a class="branch-phone" href="tel:+524422725165">442 272 5165</a>
+<div class="suc-actions">
+<a class="call" href="tel:+524422725165">Llamar</a>
+<a class="map" href="https://www.google.com/maps/search/Taqui%C3%B1os+Marqu%C3%A9s+Quer%C3%A9taro" rel="noopener" target="_blank">Cómo llegar</a>
+</div>
+</article>
+<article class="suc-card reveal branch-card" data-amenities="both">
+<div class="suc-card-head">
+<div><span class="branch-label">La más completa</span><h4>Taquiños Nación</h4></div>
+<span class="branch-icon">⭐</span>
+</div>
+<p class="addr">Blvd. de la Nación 1010, Zona Industrial Jurica, Querétaro, Qro.</p>
+<div class="amenity-tags"><span class="tag kids">🧒 Zona TaKids</span><span class="tag pet">🐾 Pet Friendly</span></div>
+<p class="quote">Área para niños y ambiente pet friendly.</p>
+<a class="branch-phone" href="tel:+524428859316">442 885 9316</a>
+<div class="suc-actions">
+<a class="call" href="tel:+524428859316">Llamar</a>
+<a class="map" href="https://www.google.com/maps/search/Taqui%C3%B1os+Blvd+de+la+Naci%C3%B3n+1010+Jurica+Quer%C3%A9taro" rel="noopener" target="_blank">Cómo llegar</a>
+</div>
+</article>
+<article class="suc-card reveal branch-card" data-amenities="both">
+<div class="suc-card-head">
+<div><span class="branch-label">Corregidora</span><h4>Taquiños Pueblito</h4></div>
+<span class="branch-icon">📍</span>
+</div>
+<p class="addr">Privada del Gran Cue 2 y 4, Santuarios del Cerrito, El Pueblito, Corregidora, Qro.</p>
+<div class="amenity-tags"><span class="tag kids">🧒 Zona TaKids</span><span class="tag pet">🐾 Pet Friendly</span></div>
+<p class="quote">Área para niños y ambiente pet friendly.</p>
+<a class="branch-phone" href="tel:+524425714444">442 571 4444</a>
+<div class="suc-actions">
+<a class="call" href="tel:+524425714444">Llamar</a>
+<a class="map" href="https://www.google.com/maps/search/Taqui%C3%B1os+Privada+del+Gran+Cue+El+Pueblito+Corregidora" rel="noopener" target="_blank">Cómo llegar</a>
+</div>
+</article>
+<article class="suc-card reveal branch-card" data-amenities="both">
+<div class="suc-card-head">
+<div><span class="branch-label">Campestre</span><h4>Taquiños Juriquilla</h4></div>
+<span class="branch-icon">⭐</span>
+</div>
+<p class="addr">Gran Reserva Preserve, Salto del Moro, Juriquilla, Querétaro, Qro.</p>
+<div class="amenity-tags"><span class="tag kids">🧒 Zona TaKids</span><span class="tag pet">🐾 Pet Friendly</span></div>
+<p class="quote">Área para niños y ambiente pet friendly.</p>
+<a class="branch-phone" href="tel:+524423895337">442 389 5337</a>
+<div class="suc-actions">
+<a class="call" href="tel:+524423895337">Llamar</a>
+<a class="map" href="https://www.google.com/maps/search/Taqui%C3%B1os+Juriquilla+Quer%C3%A9taro" rel="noopener" target="_blank">Cómo llegar</a>
+</div>
+</article>
+<article class="suc-card reveal branch-card" data-amenities="both">
+<div class="suc-card-head">
+<div><span class="branch-label">Arroyo Hondo</span><h4>Taquiños Sur</h4></div>
+<span class="branch-icon">📍</span>
+</div>
+<p class="addr">Carretera 411 km 6.7, Arroyo Hondo, Corregidora, Qro.</p>
+<div class="amenity-tags"><span class="tag kids">🧒 Zona TaKids</span><span class="tag pet">🐾 Pet Friendly</span></div>
+<p class="quote">Área para niños y ambiente pet friendly.</p>
+<a class="branch-phone" href="tel:+524427078984">442 707 8984</a>
+<div class="suc-actions">
+<a class="call" href="tel:+524427078984">Llamar</a>
+<a class="map" href="https://www.google.com/maps/search/Taqui%C3%B1os+Carretera+411+Arroyo+Hondo+Quer%C3%A9taro" rel="noopener" target="_blank">Cómo llegar</a>
+</div>
+</article>
+<article class="suc-card suc-help reveal">
+<span class="eyebrow">¿LISTO PARA ELEGIR?</span>
+<h4>Encuentra la sucursal más cercana a ti.</h4>
+<p>Elige tu sucursal y llámanos directamente.</p>
+<button class="btn btn-outline js-call">Llamar</button>
+</article>
+</div>
+</div>
+</section>
+<!-- GALERÍA COMPLETA -->
+<section class="gallery-section" id="galeria">
+<div class="wrap">
+<div class="gallery-heading reveal">
+<div><span class="eyebrow">Galería</span><h2>Momentos Taquiños</h2></div>
+<p>Platillos, parrilla, bebidas y momentos para abrir el apetito antes de tu próxima visita.</p>
+</div>
+<div class="gallery-grid">
+<button aria-label="Ver fotografía 1" class="gallery-item" data-img="images/taquinos-01.jpg" type="button"><img alt="Fotografía Taquiños 1" loading="lazy" src="images/taquinos-01.jpg"/></button>
+<button aria-label="Ver fotografía 2" class="gallery-item" data-img="images/taquinos-02.jpg" type="button"><img alt="Fotografía Taquiños 2" loading="lazy" src="images/taquinos-02.jpg"/></button>
+<button aria-label="Ver fotografía 3" class="gallery-item" data-img="images/taquinos-03.jpg" type="button"><img alt="Fotografía Taquiños 3" loading="lazy" src="images/taquinos-03.jpg"/></button>
+<button aria-label="Ver fotografía 4" class="gallery-item" data-img="images/taquinos-04.jpg" type="button"><img alt="Fotografía Taquiños 4" loading="lazy" src="images/taquinos-04.jpg"/></button>
+<button aria-label="Ver fotografía 5" class="gallery-item" data-img="images/taquinos-05.jpg" type="button"><img alt="Fotografía Taquiños 5" loading="lazy" src="images/taquinos-05.jpg"/></button>
+<button aria-label="Ver fotografía 6" class="gallery-item" data-img="images/taquinos-06.jpg" type="button"><img alt="Fotografía Taquiños 6" loading="lazy" src="images/taquinos-06.jpg"/></button>
+<button aria-label="Ver fotografía 7" class="gallery-item" data-img="images/taquinos-07.jpg" type="button"><img alt="Fotografía Taquiños 7" loading="lazy" src="images/taquinos-07.jpg"/></button>
+<button aria-label="Ver fotografía 8" class="gallery-item" data-img="images/taquinos-08.jpg" type="button"><img alt="Fotografía Taquiños 8" loading="lazy" src="images/taquinos-08.jpg"/></button>
+<button aria-label="Ver fotografía 9" class="gallery-item" data-img="images/taquinos-09.jpg" type="button"><img alt="Fotografía Taquiños 9" loading="lazy" src="images/taquinos-09.jpg"/></button>
+<button aria-label="Ver fotografía 10" class="gallery-item" data-img="images/taquinos-10.jpg" type="button"><img alt="Fotografía Taquiños 10" loading="lazy" src="images/taquinos-10.jpg"/></button>
+<button aria-label="Ver fotografía 11" class="gallery-item" data-img="images/taquinos-11.jpg" type="button"><img alt="Fotografía Taquiños 11" loading="lazy" src="images/taquinos-11.jpg"/></button>
+<button aria-label="Ver fotografía 12" class="gallery-item" data-img="images/taquinos-12.jpg" type="button"><img alt="Fotografía Taquiños 12" loading="lazy" src="images/taquinos-12.jpg"/></button>
+<button aria-label="Ver fotografía 13" class="gallery-item" data-img="images/taquinos-13.jpg" type="button"><img alt="Fotografía Taquiños 13" loading="lazy" src="images/taquinos-13.jpg"/></button>
+<button aria-label="Ver fotografía 14" class="gallery-item" data-img="images/taquinos-14.jpg" type="button"><img alt="Fotografía Taquiños 14" loading="lazy" src="images/taquinos-14.jpg"/></button>
+<button aria-label="Ver fotografía 15" class="gallery-item" data-img="images/taquinos-15.jpg" type="button"><img alt="Fotografía Taquiños 15" loading="lazy" src="images/taquinos-15.jpg"/></button>
+</div>
+</div>
+</section>
+<!-- STRIP -->
+<div aria-label="ASÍ SE VIVE TAQUIÑOS" class="gallery-strip">
+<div class="g-track">
+<img alt="Taquiños" src="images/taquinos-01.jpg"/>
+<img alt="Parrillada" src="images/taquinos-06.jpg"/>
+<img alt="Platillo" src="images/taquinos-10.jpg"/>
+<img alt="Platillo" src="images/taquinos-12.jpg"/>
+<img alt="Platillo" src="images/taquinos-15.jpg"/>
+<img alt="Taquiños" src="images/taquinos-01.jpg"/>
+<img alt="Parrillada" src="images/taquinos-06.jpg"/>
+<img alt="Platillo" src="images/taquinos-10.jpg"/>
+<img alt="Platillo" src="images/taquinos-12.jpg"/>
+<img alt="Platillo" src="images/taquinos-15.jpg"/>
+</div>
+</div>
+<!-- CTA FINAL -->
+<section class="cta-final">
+<div class="wrap">
+<span class="eyebrow">El antojo no espera</span>
+<h2>¿A cuál sucursal quieres llamar?</h2>
+<p>Selecciona una sucursal y la página abrirá directamente la llamada desde tu teléfono.</p>
+<div class="cta-btns">
+<button class="btn btn-brasa js-call">Llamar</button>
+<a class="btn btn-outline" href="#sucursales">Ver sucursales</a>
+</div>
+</div>
+</section>
+<footer>
+<div class="wrap">
+<div class="foot-grid">
+<div class="foot-brand">
+<div class="brand-text"><b>Taquiños</b><span>Tacos de espadas al carbón</span></div>
+<p>Cortes premium, fuego real y ambiente familiar en 5 sucursales de Querétaro.</p>
+<div class="social-row">
+<a aria-label="Facebook" href="https://www.facebook.com/taquinos/?locale=es_LA" rel="noopener" target="_blank">
+<svg viewbox="0 0 24 24"><path d="M22 12a10 10 0 10-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0022 12z"></path></svg>
+</a>
+<a aria-label="Instagram" href="https://www.instagram.com/taquinos.oficial/" rel="noopener" target="_blank">
+<svg viewbox="0 0 24 24"><path d="M7.5 2h9A5.5 5.5 0 0122 7.5v9a5.5 5.5 0 01-5.5 5.5h-9A5.5 5.5 0 012 16.5v-9A5.5 5.5 0 017.5 2zm0 2A3.5 3.5 0 004 7.5v9A3.5 3.5 0 007.5 20h9a3.5 3.5 0 003.5-3.5v-9A3.5 3.5 0 0016.5 4h-9zM12 7a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6zm5.25-3.1a1.15 1.15 0 110 2.3 1.15 1.15 0 010-2.3z"></path></svg>
+</a>
+<a aria-label="TikTok" href="https://www.tiktok.com/@taquinosoficial" rel="noopener" target="_blank">
+<svg viewbox="0 0 24 24"><path d="M16.6 2h-3.2v13.7c0 1.5-1.2 2.7-2.7 2.7a2.7 2.7 0 013.4-2.6V9.8a6 6 0 00-.7 0A5.9 5.9 0 004.7 15.7 5.9 5.9 0 0010.6 21.6a5.9 5.9 0 005.9-5.9V8.4a8.1 8.1 0 004.6 1.4V6.6a4.9 4.9 0 01-4.5-4.6z"></path></svg>
+</a>
+</div>
+</div>
+<div class="foot-col"><h5>Navegación</h5><ul>
+<li><a href="#nosotros">Nosotros</a></li><li><a href="#menu">Menú</a></li><li><a href="#bebidas">Bebidas</a></li><li><a href="#familia">Familia</a></li><li><a href="#sucursales">Sucursales</a></li><li><a href="#galeria">Galería</a></li>
+</ul></div>
+<div class="foot-col"><h5>Sucursales</h5><ul>
+<li>Marqués</li><li>Nación</li><li>Pueblito</li><li>Juriquilla</li><li>Sur</li>
+</ul></div>
+<div class="foot-col"><h5>Llamadas</h5><ul>
+<li><button class="btn btn-brasa js-call" style="padding:10px 16px;font-size:.72rem">Llamar</button></li>
+<li>Santiago de Querétaro, Qro.</li>
+</ul></div>
+</div>
+<div class="foot-bottom">
+<span>© 2026 Taquiños · Tacos de Espadas al Carbón. Todos los derechos reservados.</span>
+<span>Menú y precios sujetos a cambio sin previo aviso.</span>
+</div>
+</div>
+</footer>
+<!-- FLOATING CALL -->
+<button aria-label="Llamar a Taquiños" class="wa-float js-call">Llamar</button>
+<!-- CALL SELECTOR -->
+<div aria-hidden="true" class="call-modal" id="callModal">
+<div aria-labelledby="callTitle" aria-modal="true" class="call-box" role="dialog">
+<button aria-label="Cerrar" class="call-close" id="callClose">×</button>
+<span class="eyebrow">Taquiños</span>
+<h3 id="callTitle">¿A cuál sucursal quieres llamar?</h3>
+<p>Selecciona una opción para abrir la llamada directamente.</p>
+<div class="call-options">
+<a class="call-option" href="tel:+524422725165"><span>Marqués</span><small>442 272 5165</small></a>
+<a class="call-option" href="tel:+524428859316"><span>Nación</span><small>442 885 9316</small></a>
+<a class="call-option" href="tel:+524425714444"><span>Pueblito</span><small>442 571 4444</small></a>
+<a class="call-option" href="tel:+524423895337"><span>Juriquilla</span><small>442 389 5337</small></a>
+<a class="call-option" href="tel:+524427078984"><span>Sur</span><small>442 707 8984</small></a>
+</div>
+</div>
+</div>
+<!-- LIGHTBOX -->
+<div aria-hidden="true" class="lightbox" id="lightbox">
+<button aria-label="Cerrar" id="lightboxClose">×</button>
+<img alt="" id="lightboxImg"/>
+</div>
+
+<script src="js/script.js"></script></body>
+</html>
